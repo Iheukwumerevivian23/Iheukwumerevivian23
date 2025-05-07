@@ -109,4 +109,4 @@ try:
     df.to_sql(table_name, engine, if_exists='replace', index=False)
     print(f"✅ Data uploaded successfully to '{db_name}.{table_name}'")
 except Exception as e:
-    print("❌ Error uploading data to PostgreSQL:", e)
+ print("❌ Error uploading data to PostgreSQL:", e)
